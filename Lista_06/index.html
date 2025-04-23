@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Web e HTTP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <span>
+        <p>Listando todos os itens</p>
+        <button class="listAllButton">Listar todos</button>
+        <button name="clearAllButton" class="clearAllButton">Limpar</button>
+    </span>
+    <div>
+        <code class="listAllResult">Click on upper button to list all objects</code>
+    </div>
+    <span>
+        <p>Listando por id</p>
+        <button onclick="listById()">Listar por id</button>
+        <input type="text" placeholder="Insira um id" id="listByIdInput">
+    </span>
+    <div>
+        <code class="listByIdContainer">Click on upper button to list a object</code>
+    </div>
+    <span>
+        <p>Postando um novo objeto</p>
+        <button class="postItemButton" onclick="postItem()">Adicionar item</button>
+        <input type="text" placeholder="Insira um UserID" id="userIdInput">
+        <input type="text" placeholder="Insira um title" id="titleInput">
+        <input type="text" placeholder="Insira um body" id="bodyInput">
+    </span>
+    <div>
+        <code class="listPostedItemResult">Click on upper button to  post a object</code>
+    </div>
+    <span>
+        <p>Editar por id</p>
+        <button class="editByIdButton" onclick="editById()">Editar por id</button>
+        <input type="text" placeholder="Insira um ID" id="idInputEdit">
+        <input type="text" placeholder="Insira um UserID" id="userIdInputEdit">
+        <input type="text" placeholder="Insira um title" id="titleInputEdit">
+        <input type="text" placeholder="Insira um body" id="bodyInputEdit">
+    </span>
+    <div>
+        <code class="editByIdContainer">Click on upper button to edit a object</code>
+    </div>
+     <span>
+        <p>Excluir</p>
+        <button class="deleteByIdButton" onclick="deleteById()">Excluir por id</button>
+        <input type="text" placeholder="Insira um ID" id="idInputDelete">
+    </span>
+    <div>
+        <code class="deleteByIdContainer">Click on upper button to delete a object</code>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+span {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    gap: 6px;
+    padding-left: 20px;
+}
+
+button {
+    padding: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+    background-color:rgb(68, 143, 103) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: none;
+}
+
+div {
+    background-color: rgb(32, 41, 49);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-height: 400px;
+    overflow: scroll;
+    overflow-x: unset;
+}
